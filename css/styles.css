@@ -2,7 +2,8 @@
   --brand-color: #212121;
   --background-color: #ffffff;
   --background-color2: #2f303a;
-
+  --icon-color: #757575;
+  --hover-color: #2196f3;
   --background-color3: #f5f4fa;
 }
 body {
@@ -109,7 +110,7 @@ body {
 .contacts {
   display: flex;
   gap: 50px;
-  width: 295px;
+  width: auto;
   padding-left: 0px;
 }
 .contacts a {
@@ -135,6 +136,8 @@ body {
 }
 .contacts a:hover {
   color: #2196f3;
+  --color1: var(--hover-color);
+  --color2: var(--hover-color);
 }
 .order-class {
   height: 600px;
@@ -190,7 +193,11 @@ body {
   margin-top: 94px;
   margin-bottom: 94px;
 }
-
+.lorem-ipsum svg {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
 .lorem-ipsum h4 {
   font-weight: 700;
   font-size: 14px;
@@ -426,5 +433,15 @@ figure {
   align-items: center;
 }
 .mail-icon {
+  width: 16px;
+  --color1: var(--icon-color);
+}
+
+.mail {
   display: flex;
+  align-items: center;
+}
+.phone {
+  display: flex;
+  align-items: center;
 }
