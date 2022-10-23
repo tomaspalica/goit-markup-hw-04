@@ -5,6 +5,7 @@
   --icon-color: #757575;
   --hover-color: #2196f3;
   --background-color3: #f5f4fa;
+  --clients-color: #afb1b8;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -136,6 +137,8 @@ body {
 }
 .contacts a:hover {
   color: #2196f3;
+}
+.contacts a:hover svg {
   --color1: var(--hover-color);
   --color2: var(--hover-color);
 }
@@ -361,6 +364,11 @@ body {
   padding-bottom: 20px;
   margin: 0 0;
 }
+.project-list figure:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
 
 .logo {
   display: flex;
@@ -444,4 +452,101 @@ figure {
 .phone {
   display: flex;
   align-items: center;
+}
+.contacts-bellow-padding {
+  padding-top: 9px;
+}
+.social-media {
+  display: flex;
+  padding-left: 32px;
+}
+.social-media svg {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.social-media svg:hover {
+  background-color: #2196f3;
+  --color4: var(--background-color);
+  border-radius: 100%;
+  cursor: pointer;
+}
+.clients-wrapper {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.clients {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.clients li {
+  list-style-type: none;
+}
+.clients svg {
+  border-radius: 4px;
+  outline: 1px solid #afb1b8;
+  --color4: var(--clients-color);
+  --color1: var(--clients-color);
+}
+.clients svg:hover {
+  --color4: var(--hover-color);
+  --color1: var(--hover-color);
+  outline-color: #2196f3;
+}
+.social-media li {
+  list-style-type: none;
+}
+.footer-flex {
+  display: flex;
+}
+
+.social-media-bellow {
+  display: flex;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.social-media-bellow svg {
+  margin-right: 10px;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+}
+
+.social-media-bellow svg:hover {
+  background-color: #2196f3;
+  --color4: var(--background-color);
+  border-radius: 100%;
+  cursor: pointer;
+}
+.social-media-bellow li {
+  list-style-type: none;
+}
+.join-us {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.social-bellow {
+  margin-top: 12px;
+  margin-left: 70px;
 }
