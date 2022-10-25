@@ -64,6 +64,10 @@ body {
 
 .order-section {
   background-color: var(--background-color2);
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(255, 255, 255, 0)
+  );
   background-image: url(../images/background-img.jpg);
 }
 .lorem-ipsum-section {
