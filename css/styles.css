@@ -200,11 +200,15 @@ body {
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.lorem-ipsum svg {
+.lorem-svg {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .lorem-ipsum h4 {
   font-weight: 700;
   font-size: 14px;
@@ -501,8 +505,6 @@ figure {
   list-style-type: none;
 }
 .clients svg {
-  border-radius: 4px;
-  outline: 1px solid #afb1b8;
   --color4: var(--clients-color);
   --color1: var(--clients-color);
 }
@@ -523,12 +525,6 @@ figure {
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-.social-media-bellow svg {
-  margin-right: 10px;
-  margin-bottom: 30px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
 }
 
 .social-media-bellow svg:hover {
@@ -553,4 +549,25 @@ figure {
 .social-bellow {
   margin-top: 12px;
   margin-left: 70px;
+}
+.svg-container {
+  margin-right: 10px;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  border-radius: 4px;
+  outline: 1px solid #afb1b8;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg-container:hover svg {
+  --color4: var(--hover-color);
+  --color1: var(--hover-color);
+}
+.svg-container:hover {
+  outline-color: #2196f3;
+  cursor: pointer;
 }
