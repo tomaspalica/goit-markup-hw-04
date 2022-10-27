@@ -69,6 +69,7 @@ body {
     rgba(255, 255, 255, 0)
   );
   background-image: url(../images/background-img.jpg);
+  width: 1600px;
 }
 .lorem-ipsum-section {
   background-color: var(--background-color);
@@ -125,6 +126,8 @@ body {
   line-height: 100%;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 
 .contacts address {
@@ -456,6 +459,7 @@ figure {
 .mail {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .phone {
   display: flex;
@@ -535,6 +539,10 @@ figure {
 }
 .social-media-bellow li {
   list-style-type: none;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  margin-right: 10px;
 }
 .join-us {
   font-size: 14px;
