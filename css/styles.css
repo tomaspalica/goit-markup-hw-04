@@ -70,6 +70,7 @@ body {
   );
   background-image: url(../images/background-img.jpg);
   width: 1600px;
+  margin: 0 auto;
 }
 .lorem-ipsum-section {
   background-color: var(--background-color);
@@ -578,4 +579,10 @@ figure {
 .svg-container:hover {
   outline-color: #2196f3;
   cursor: pointer;
+}
+.contatcs-width {
+  width: auto;
+}
+.contatcs-width span {
+  padding-left: 10px;
 }
