@@ -6,6 +6,7 @@
   --hover-color: #2196f3;
   --background-color3: #f5f4fa;
   --clients-color: #afb1b8;
+  --icon-bellow: rgba(255, 255, 255, 1);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -530,6 +531,9 @@ figure {
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.social-media-bellow svg {
+  --color4: var(--icon-bellow);
 }
 
 .social-media-bellow svg:hover {
